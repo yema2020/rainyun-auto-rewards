@@ -17,6 +17,6 @@
             "path": "/daily-rewards",
             "schedule": "0 0 * * *"
         }
-    ]
+    ],
     "cleanUrls": true
 }
