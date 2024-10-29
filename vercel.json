@@ -6,11 +6,16 @@
             "use": "@vercel/node"
         }
     ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/app.cjs"
+        }
+    ],
     "crons": [
         {
             "path": "/daily-rewards",
             "schedule": "0 0 * * *"
         }
-    ],
-     "cleanUrls": true 
+    ]
 }
