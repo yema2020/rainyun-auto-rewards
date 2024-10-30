@@ -12,7 +12,7 @@ const apis = [
         fetch_options: {
             method: "POST",
             headers: {
-                "X-Api-Key": zrRpWdjkSYYQFU0Nr5ZKXEfmXxN5iWOU,
+                "X-Api-Key": apikey,
                 "User-Agent": "Apifox/1.0.0 (https://apifox.com)",
                 "Content-Type": "application/json",
             },
